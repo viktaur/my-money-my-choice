@@ -1,15 +1,16 @@
 # My money 💰, my choice 🙋
 ### Motivation
-Many developed countries offer a bipartisan system where citizens can choose between two colours and delegate their power
-every four years. This form of decision-making is not representative enough of the public opinion and preferences.
-Although I understand there needs to be some educated group of representatives that can engage in legislation and
-government I believe that citizens of a modern democracy should be able to directly **choose where they
-want their money to be spent**, especially with the constant increase of public debt and decrease of funding of vital
-sectors.
+Most democratic nations are based on a system where their citizens choose between a limited number of parties (often two)
+every four years and delegate their power to them. I believe this form of decision-making is not representative enough of the public opinion
+and preferences, hence why I think there could be ways of democratising the system even more. Even though it is wise to rely on an educated group
+of representatives that can engage in legislation and decision-making, citizens of a modern democracy should be able to directly
+**choose where they want their money to be spent**. A potential transition to this new system becomes even more pertinent when one considers the
+constant increase in public debt and cuts in funding of vital sectors happening in multiple states.
 
 Through **quadratic voting**, we can enforce a more fair system where taxpayers can actually decide which public sectors
-they want to finance while being incentivised to spread it. I have implemented a pallet that can be used to construct
-a Substrate runtime.
+they want to finance, while being incentivised to spread it. To achieve this, I have implemented a pallet that can be used to construct
+a Substrate runtime. This runtime could evolve into a parachain which could later be integrated in the Polkadot or Kusama
+ecosystems, benefiting from the decentralisation and security provided.
 
 ### Specification
 - Budget elections are meant to happen at the end of each fiscal year, but this is not a limitation. Budget elections are

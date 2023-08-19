@@ -19,7 +19,6 @@ scale-info = { version = "2.1.1", default-features = false, features = ["derive"
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, optional = true, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v1.0.0" }
 frame-support = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v1.0.0" }
 frame-system = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v1.0.0" }
-pba-interface = { path = "../interface", default-features = false }
 pallet-assets = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v1.0.0" }
 strum = "0.25.0"
 strum_macros = "0.25.1"
@@ -32,6 +31,6 @@ pallet-balances = { version = "4.0.0-dev", git = "https://github.com/paritytech/
 
 [features]
 default = ["std"]
-std = ["codec/std", "frame-benchmarking?/std", "frame-support/std", "frame-system/std", "scale-info/std", "pba-interface/std", "pallet-assets/std"]
+std = ["codec/std", "frame-benchmarking?/std", "frame-support/std", "frame-system/std", "scale-info/std", "pallet-assets/std"]
 runtime-benchmarks = ["frame-benchmarking/runtime-benchmarks", "pallet-assets/runtime-benchmarks"]
 try-runtime = ["frame-support/try-runtime", "pallet-assets/try-runtime"]
